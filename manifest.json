@@ -1,0 +1,9 @@
+{
+  "name": "ENGLISH BUDDY",
+  "short_name": "English Buddy",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8f7fc",
+  "theme_color": "#6C4AE2",
+  "description": "Learn, practise and improve your English."
+}

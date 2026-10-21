@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6C4AE2">
+  <title>ENGLISH BUDDY</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" data-page="welcome" aria-label="English Buddy home"><span class="brand-mark">EB</span><span>ENGLISH <b>BUDDY</b></span></a>
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle colour theme">◐</button>
+    </header>
+    <main id="app" aria-live="polite"></main>
+    <nav class="bottom-nav" id="bottomNav" hidden aria-label="Main navigation">
+      <button data-page="home">⌂<span>Home</span></button>
+      <button data-page="lessons">▤<span>Lessons</span></button>
+      <button data-page="practice">🎙<span>Speak</span></button>
+      <button data-page="quiz">✓<span>Quiz</span></button>
+      <button data-page="progress">◔<span>Progress</span></button>
+    </nav>
+    <footer class="footer-note">Learn • Practise • Improve</footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
